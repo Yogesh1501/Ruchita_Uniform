@@ -1,0 +1,48 @@
+body{
+    background: #fff !important;
+    font-family: system-ui,sans-serif;
+    width: 100%;
+    overflow-x:hidden;
+    display: block;
+      width: 100%;
+      
+      margin: 0;
+      padding: 0;
+      /* Add any other styles you need */
+  
+  }
+
+#borderimg {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(/img/section_notch_bottom.png) 20% round;
+  }
+  
+  .ad-co-div-h{
+    background-color: #e6fffa;
+    display: flex;
+    width: auto;
+    
+  }
+  
+  .ad-co{
+    /* width: 25rem; */
+    margin: auto;
+    padding: 2rem 2.6rem;
+  }
+  
+  .ad-co a span{
+    
+    font-size: 1.2rem;
+    font-weight: 530;
+    color: #094f7e;
+  }
+  
+  @media only screen and (max-width:480px){
+    .ad-co a span.ad-co-3{
+      display: none;
+    }
+  }
+  .ad-co a{
+    text-decoration: none;
+  }
