@@ -1,0 +1,44 @@
+.container-hd {
+    width: 94%;
+    margin: 50px auto;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  
+  .content-hd {
+    opacity: 0;
+    overflow-x: hidden;
+    /* color: #a6244a; */
+  }
+  
+  .box-hd {
+      position: absolute;
+    margin: 20px 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .heading-hd{
+    font-weight: 700;
+    line-height: 65px;
+    font-size: 80px;
+    font-family: "Frank Ruhl Libre", serif;
+      transform: scaleX(1);
+      transition: all 1000ms ease;
+      margin-bottom: 20px;
+      color: #a6244a;
+  }
+
+  .text-hd{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 10px;
+    
+  }
+  .home-img img {
+    mix-blend-mode: multiply;
+    height: 400px;
+  }
