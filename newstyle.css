@@ -97,33 +97,63 @@
     -webkit-justify-content: center;
     /* max-width: 820px; */
   }
+
   
   .card__img-np71,
   .card__img--hover-np71 {
-    background-image: url("/public/Images/pexels-pixabay-210600.jpg");
+    background-image: url("./img/Uniform.jpeg");
   }
   
   .card__img-np72,
   .card__img--hover-np72 {
-    background-image: url("./img/uniform-home.png");
+    background-image: url("./img/School_Bag.jpeg");
   }
   .card__img-np73,
   .card__img--hover-np73 {
-    background-image: url("./img/uniform-home.png");
+    background-image: url("./img/Tiffin_Bag.jpeg");
   }
   .card__img-np74,
   .card__img--hover-np74 {
-    background-image: url("/public/Images/pexels-timson-foox-2182863.jpg");
+    background-image: url("./img/Sweater.jpeg");
   }
   .card__img-np75,
   .card__img--hover-np75 {
-    background-image: url("/public/Images/pexels-tima-miroshnichenko-5380664.jpg");
+    background-image: url("./img/Socks.jpeg");
   }
   .card__img-np76,
   .card__img--hover-np76 {
-    background-image: url("/public/Images/pexels-brett-sayles-937524.jpg");
+    background-image: url("./img/Tie.jpeg");
+  }
+  .card__img-np77,
+  .card__img--hover-np77 {
+    background-image: url("./img/Belt.jpeg");
+  }
+  .card__img-np78,
+  .card__img--hover-np78 {
+    background-image: url("./img/Sweat_shirt.jpeg");
+  }
+  .card__img-np79,
+  .card__img--hover-np79 {
+    background-image: url("./img/Jacket.jpeg");
+  }
+  .card__img-np80,
+  .card__img--hover-np80 {
+    background-image: url("./img/Blezzer.jpeg");
+  }
+  .card__img-np81,
+  .card__img--hover-np81 {
+    background-image: url("./img/Sport.jpeg");
+  }
+  .card__img-np82,
+  .card__img--hover-np82 {
+    background-image: url("./img/Laptop_Bag.jpeg");
+  }
+  .card__img-np83,
+  .card__img--hover-np83 {
+    background-image: url("./img/Shoe.jpeg");
   }
   
+ 
   /* .card__img-np7,
   .card__img--hover-np7 {
     background-image: url("/public/Images/backgroundofservice.jpg");
