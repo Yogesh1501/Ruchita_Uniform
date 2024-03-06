@@ -47,6 +47,11 @@
     height: 300px;
   }
 
+  .home-img  {
+    background-image: url("./img/Ruchita.png");
+    background-repeat: no-repeat;
+  }
+
   @media only screen and (max-width:900px){
     .container-hd{
       grid-template-columns: 1fr;
