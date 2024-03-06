@@ -44,7 +44,7 @@
   }
   .home-img img {
     mix-blend-mode: multiply;
-    height: 400px;
+    height: 300px;
   }
 
   @media only screen and (max-width:900px){
