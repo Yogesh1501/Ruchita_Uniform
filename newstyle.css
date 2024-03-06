@@ -42,3 +42,321 @@
     mix-blend-mode: multiply;
     height: 400px;
   }
+
+
+
+
+
+
+
+
+
+  .section7 {
+    margin-top: 10px;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-image: url("/public/Images/backgroundofservice.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    background-color: rgba(0, 0, 0, 0.568);
+    /* opacity: ; */
+  }
+  
+  
+  .section7headding {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  
+    align-items: center;
+    /* margin-top: -2%; */
+    height: 200px;
+  
+    justify-content: center;
+  }
+  
+  .cards-np7 {
+    /* width: 100%; */
+    height: 100%;
+  
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: center;
+    -webkit-justify-content: center;
+    /* max-width: 820px; */
+  }
+  
+  .card__img-np71,
+  .card__img--hover-np71 {
+    background-image: url("/public/Images/pexels-pixabay-210600.jpg");
+  }
+  
+  .card__img-np72,
+  .card__img--hover-np72 {
+    background-image: url("./img/uniform-home.png");
+  }
+  .card__img-np73,
+  .card__img--hover-np73 {
+    background-image: url("./img/uniform-home.png");
+  }
+  .card__img-np74,
+  .card__img--hover-np74 {
+    background-image: url("/public/Images/pexels-timson-foox-2182863.jpg");
+  }
+  .card__img-np75,
+  .card__img--hover-np75 {
+    background-image: url("/public/Images/pexels-tima-miroshnichenko-5380664.jpg");
+  }
+  .card__img-np76,
+  .card__img--hover-np76 {
+    background-image: url("/public/Images/pexels-brett-sayles-937524.jpg");
+  }
+  
+  /* .card__img-np7,
+  .card__img--hover-np7 {
+    background-image: url("/public/Images/backgroundofservice.jpg");
+  } */
+  
+  .card__like-np7 {
+    width: 18px;
+  }
+  
+  .card__clock-np7 {
+    width: 15px;
+    vertical-align: middle;
+    fill: #ad7d52;
+  }
+  .card__time-np7 {
+    font-size: 12px;
+    color: #ad7d52;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  
+  .card__clock-info-np7 {
+    float: right;
+  }
+  
+  .card__img-np7 {
+    visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 240px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .card__info-hover-np7 {
+    position: absolute;
+    padding: 16px;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+  }
+  
+  .card__img--hover-np7 {
+    transition: 0.2s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    height: 250px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
+  }
+  .card-np7 {
+    margin-left: 12px;
+    margin-right: 12px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    background-color: #fff;
+    height: 320px;
+    width: 300px;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+  }
+  .card-np7:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.1, 1.1);
+  }
+  
+  .card__info-np7 {
+    z-index: 2;
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+  }
+  
+  .card__category-np7 {
+    font-family: "system-ui";
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+  }
+  
+  .card__title-np7 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: system-ui;
+  }
+  
+  .card__by-np7 {
+    font-size: 12px;
+    font-family: system-ui;
+    font-weight: 500;
+  }
+  
+  .card__author-np7 {
+    font-weight: 600;
+    text-decoration: none;
+    color: #ad7d52;
+  }
+  
+  .card-np7:hover .card__img--hover-np7 {
+    height: 100%;
+    opacity: 0.3;
+  }
+  
+  .card-np7:hover .card__info-np7 {
+    background-color: transparent;
+    position: relative;
+  }
+  
+  .card-np7:hover .card__info-hover-np7 {
+    opacity: 1;
+  }
+  .section7slider {
+    /* margin-top: 15px; */
+    /* margin-top: -10%; */
+    /* height: 300px; */
+    /* width: 90%; */
+  
+    /* background-color: #007bff; */
+    /* 
+     */
+    justify-content: center;
+    /* background-color: #007bff; */
+  }
+  .cards7np {
+    height: 100%;
+  
+    width: 100%;
+    justify-content: center;
+    /* margin-top: -1%; */
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  
+  .headt-7p {
+    width: 100%;
+    margin: 0% 10%;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    font-family: system-ui;
+  }
+  .section7bottom {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: -150px; */
+    height: 250px;
+    margin-bottom: 20px;
+  
+    justify-content: center;
+    /* margin-top: -10%; */
+    /* height: 10%; */
+    /* justify-content: center; */
+    animation-name: slideIn;
+    animation-duration: 1s;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .bottom7text {
+    display: grid;
+    /* margin-top: -20%; */
+    width: 85%;
+    height: 100%;
+    /* border: 2px solid white; */
+    border-radius: 30px;
+    background-color: #0b0e109d;
+    /* margin-left: 150px; */
+  }
+  .bottom7text h2 {
+    padding: 10px 50px;
+    font-size: 40px;
+    width: 100%;
+    height: 10%;
+    color: rgb(243, 242, 241);
+  }
+  .bottom7text p {
+    padding: 10px 50px;
+    font-size: 25px;
+    height: 60%;
+    width: 100%;
+    color: rgb(206, 204, 199);
+  }
+  .bottom7texth {
+    font-family: "tungstenw05-medium", "Oswald", sans-serif;
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  @media only screen and (max-width: 548px) {
+    .section7bottom {
+      height: 400px;
+    }
+    .bottom7text h2 {
+      font-size: 26px;
+    }
+    .bottom7text p {
+      font-size: 16px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .section7slider {
+      margin-top: 10%;
+    }
+    .section7bottom {
+      height: 300px;
+      /* margin-top: -10%; */
+    }
+    .bottom7text h2 {
+      font-size: 26px;
+    }
+    .bottom7text p {
+      font-size: 16px;
+    }
+    
+  }
+  @media only screen and (max-width: 400px) {
+    .section7slider {
+      margin-top: 150px;
+    }
+    .section7bottom {
+      height: 400px;
+    }
+  }
