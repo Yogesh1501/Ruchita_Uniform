@@ -493,3 +493,32 @@
     }
     
   }
+
+
+
+
+  .About-con{
+    margin: 0 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .about-p{
+    padding: 20px;
+    padding-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: system-ui, sans-serif;
+  }
+
+  .about-p h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+
+  .about-p h5{
+    font-size: 18px;
+    font-weight: 400;
+  }
