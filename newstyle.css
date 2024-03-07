@@ -557,3 +557,26 @@
     font-size: 18px;
     font-weight: 400;
   }
+
+  .About-img{
+    padding: 20px;
+    padding-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    mix-blend-mode: multiply;
+    height: 300px;
+  }
+
+  @media only screen and (max-width:900px){
+    .About-img{
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media only screen and (max-width:580px){
+    .About-img{
+      width: 99%;
+      height: auto;
+    }
+  }
+
