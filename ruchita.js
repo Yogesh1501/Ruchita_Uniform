@@ -63,11 +63,11 @@ function myFunction() {
     currentIndex = (currentIndex + 1) % images.length;
     
     // Schedule the next change after 2 seconds
-    setTimeout(changeBackground, 1000);
+    setTimeout(changeBackground, 2000);
   }
 
   // Call the function to start the background image change cycle
-  setTimeout(changeBackground, 1000);
+  setTimeout(changeBackground, 2000);
 
 
 
