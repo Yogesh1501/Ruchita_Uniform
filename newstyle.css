@@ -51,7 +51,7 @@
   .home-img, #bgContainer{
     background-image: url("./img/Ruchita.png");
     background-repeat: no-repeat;
-    transition: background-image 0.5s ease;
+    transition: background-image 0.5s ease-in-out;
       justify-content: center;
       background-size: contain;
       background-position: center;
@@ -697,4 +697,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .abt-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
