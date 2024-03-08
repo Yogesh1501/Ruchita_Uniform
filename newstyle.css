@@ -14,6 +14,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height: 80%;
   }
   
   .box-hd {
@@ -47,9 +48,17 @@
     height: 300px;
   }
 
-  .home-img  {
+  .home-img, #bgContainer{
     background-image: url("./img/Ruchita.png");
     background-repeat: no-repeat;
+    transition: background-image 0.5s ease;
+      justify-content: center;
+      background-size: contain;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-repeat: no-repeat;
   }
 
   @media only screen and (max-width:900px){
@@ -61,6 +70,10 @@
       justify-content: center;
       background-size: contain;
       background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-repeat: no-repeat;
     }
   }
   @media only screen and (max-width:768px){
@@ -562,9 +575,16 @@
 
   }
 
+  @media only screen and (max-width:768px){
+    .About-con{
+      grid-template-columns: 1fr;
+  
+    }
+  }
+
   .about-p{
-    padding: 20px;
-    padding-left: 40px;
+    padding: 20px 20px 20px 40px;
+    background-color: #f2f2f2;
     display: flex;
     flex-wrap: wrap;
     font-family: system-ui, sans-serif;
@@ -583,16 +603,33 @@
 
   .About-img{
     padding: 20px;
-    padding-left: 200px;
+    /* padding-left: 200px; */
     display: flex;
     flex-wrap: wrap;
     mix-blend-mode: multiply;
-    height: 300px;
+    justify-content: center;
+    /* height: 300px; */
   }
 
-  @media only screen and (max-width:900px){
+  /* @media only screen and (max-width:900px){
     .About-img{
       grid-template-columns: 1fr;
+    }
+  } */
+
+  @media only screen and (max-width:768px){
+    .About-img{
+      grid-template-columns: 1fr;
+    }
+
+    .about-p h3 {
+      font-size: 30px;
+      font-weight: 700;
+      margin: 0px 0;
+    }
+
+    .About-con {
+      margin: 0 0;
     }
   }
 
@@ -603,3 +640,61 @@
     }
   }
 
+  @media only screen and (max-width: 768px){
+    .about-p {
+      padding: 0 20px 20px 40px ;
+    }
+
+    
+  }
+
+  #exploreButton {
+    width: 200px;
+    height: 50px;
+    padding: 10px 10px;
+    background-color: #a6244a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    
+  }
+
+  #exploreButton:hover {
+    
+    padding: 10px 10px;
+    background-color: #ffe6f2;
+    color: #a6244a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    border: solid 2px #a6244a;
+    
+  }
+
+  @media only screen and (max-width: 768px){
+    #exploreButton {
+      width: 160px;
+      height: 50px;
+      padding: 4px 4px;
+      background-color: #a6244a;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      
+    }
+  }
+
+  .box-pr{
+    position: relative;
+  }
+
+  .btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -46,3 +46,42 @@ function myFunction() {
       showBox();
     }, 500); // Delay for content to appear
   });
+
+
+
+
+
+  var images = ['./img/Ruchita.png', './img/School_Bag.jpeg', './img/home_boy1.jpg', './img/home_girl2.jpg'];
+  var currentIndex = 0;
+
+  // Function to change the background image
+  function changeBackground() {
+    // Set the background image
+    document.getElementById('bgContainer').style.backgroundImage = "url('" + images[currentIndex] + "')";
+    
+    // Increment the index for the next image
+    currentIndex = (currentIndex + 1) % images.length;
+    
+    // Schedule the next change after 2 seconds
+    setTimeout(changeBackground, 1000);
+  }
+
+  // Call the function to start the background image change cycle
+  setTimeout(changeBackground, 1000);
+
+
+
+
+
+
+
+
+
+  // Find the button by its ID
+  const exploreButton = document.getElementById('exploreButton');
+
+  // Add a click event listener to the button
+  exploreButton.addEventListener('click', function() {
+    // Redirect to another page when the button is clicked
+    window.location.href = './Services.html'; // Replace 'services-page.html' with the actual URL of the services page
+  });
